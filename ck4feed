@@ -1,0 +1,59 @@
+#!/usr/bin/perl
+#
+# ~/.newsboat/ck4feed: check for missing feeds of entire pkgsrc tree
+#
+# (c)oded by chinarulezzz under the wtfpl license.
+
+use strict;
+use warnings;
+use autodie;
+
+# Read all package names from newsboat's 'urls' file.
+sub slurp {
+	my $fd;
+
+	open $fd, 'urls';
+	while (<$fd>) {
+		/\"~(?:├|└)\[.\] (.*)\"/;
+		next unless length $1;
+
+		# expand some package names like name{,-scm} into a few:
+		# - name
+		# - name-scm
+		my $expand = `echo $1`;
+		chomp $expand;
+
+		for my $pkg (split / /, $expand) {
+			$_[0]{ $pkg } = 1;
+		}
+	}
+	close $fd;
+}
+
+
+# These packages doesn't need RSS Feeds, for reasons like:
+# - no distfiles
+# - intentionally used older version
+
+my %SKIP = map { $_ => 1 } qw(
+	filesystem
+	rc
+	hcxtools3
+	kismet2016
+	libpng12
+	libxcrypt2.4
+	mdk3
+	newsboat
+	python
+);
+
+my @PKGLIST = map s/\n//r, qx( pkgman printf "%n\n" );
+
+slurp \my %PRESENT;
+
+for my $pkg (@PKGLIST) {
+	next if $SKIP{ $pkg };
+	print "$pkg\n" unless $PRESENT{ $pkg };
+}
+
+# End of file.
