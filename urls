@@ -89,6 +89,8 @@ https://github.com/zeppe-lin/pkgutils/commits/master.atom              "~├[c] 
 exec:~/.newsboat/ext/core/procps-ng                                    "~├[r] procps"                                             core
 exec:~/.newsboat/ext/core/psmisc                                       "~├[r] psmisc"                                             core
 exec:~/.newsboat/ext/core/python                                       "~├[r] python3"                                            core
+https://github.com/leahneukirchen/outils/commits/master/src/usr.sbin/rdate.atom "~├[c] rdate"                                     core
+https://github.com/leahneukirchen/outils/releases.atom                          "~├[r] rdate"                                     core
 exec:~/.newsboat/ext/core/readline                                     "~├[r] readline"                                           core
 https://github.com/zeppe-lin/rejmerge/commits/master.atom              "~├[r] rejmerge"                                           core
 https://github.com/zeppe-lin/revdep/commits/master.atom                "~├[r] revdep"                                             core
@@ -140,7 +142,7 @@ https://github.com/relan/exfat/releases.atom                           "~├[r] 
 exec:~/.newsboat/ext/opt/f2fs-tools                                    "~├[r] f2fs-tools"                                         opt
 exec:~/.newsboat/ext/opt/fontconfig                                    "~├[r] fontconfig"                                         opt
 exec:~/.newsboat/ext/opt/freetype                                      "~├[r] freetype"                                           opt
-exec:~/.newsboat/ext/opt/fuse                                          "~├[r] fuse"                                               opt
+https://github.com/libfuse/libfuse/releases.atom                       "~├[r] fuse3"                                              opt
 exec:~/.newsboat/ext/opt/gdb                                           "~├[r] gdb"                                                opt
 exec:~/.newsboat/ext/opt/glib                                          "~├[r] glib"                                               opt
 exec:~/.newsboat/ext/opt/gnu-efi                                       "~├[r] gnu-efi"                                            opt
@@ -211,6 +213,7 @@ https://metacpan.org/feed/distribution/IPC-Run3                        "~├[r] 
 https://metacpan.org/feed/distribution/XML-Parser                      "~├[r] p5-xml-parser"                                      opt
 exec:~/.newsboat/ext/opt/paper                                         "~├[r] paper"                                              opt
 exec:~/.newsboat/ext/opt/pinentry                                      "~├[r] pinentry"                                           opt
+https://github.com/zeppe-lin/pkgmaint/commits/master.atom              "~├[c] pkgmaint"                                           opt
 exec:~/.newsboat/ext/opt/popt                                          "~├[r] popt"                                               opt
 exec:~/.newsboat/ext/opt/psutils                                       "~├[r] psutils"                                            opt
 exec:~/.newsboat/ext/opt/python3-mako                                  "~├[r] python3-mako"                                       opt
@@ -223,8 +226,10 @@ exec:~/.newsboat/ext/opt/rpcbind                                       "~├[r] 
 exec:~/.newsboat/ext/opt/rpcsvc-proto                                  "~├[r] rpcsvc-proto"                                       opt
 exec:~/.newsboat/ext/opt/ruby                                          "~├[r] ruby"                                               opt
 exec:~/.newsboat/ext/opt/samhain                                       "~├[r] samhain"                                            opt
+https://github.com/zeppe-lin/sdhcp/commits/master.atom                 "~├[c] sdhcp"                                              opt
 exec:~/.newsboat/ext/opt/smartmontools                                 "~├[r] smartmontools"                                      opt
 exec:~/.newsboat/ext/opt/socat                                         "~├[r] socat"                                              opt
+https://github.com/libfuse/sshfs/releases.atom                         "~├[r] sshfs-fuse"                                         opt
 exec:~/.newsboat/ext/opt/strace                                        "~├[r] strace"                                             opt
 exec:~/.newsboat/ext/opt/stunnel                                       "~├[r] stunnel"                                            opt
 exec:~/.newsboat/ext/opt/syslinux                                      "~├[r] syslinux"                                           opt
