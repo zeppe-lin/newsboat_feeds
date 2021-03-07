@@ -111,7 +111,6 @@ exec:~/.newsboat/ext/core/zlib                                         "~├[r] 
 exec:~/.newsboat/ext/core/zstd                                         "~├[r] zstd"                                               core
 │
 ├─[OPT]
-exec:~/.newsboat/ext/opt/a2ps                                          "~├[r] a2ps"                                               opt
 exec:~/.newsboat/ext/opt/alsa-lib                                      "~├[r] alsa-lib"                                           opt
 exec:~/.newsboat/ext/opt/alsa-oss                                      "~├[r] alsa-oss"                                           opt
 exec:~/.newsboat/ext/opt/alsa-plugins                                  "~├[r] alsa-plugins"                                       opt
@@ -591,7 +590,6 @@ exec:~/.newsboat/ext/contrib/gtk-engine-murrine                        "~├[r] 
 exec:~/.newsboat/ext/contrib/gtk-engines                               "~├[r] gtk-engines"                                        contrib
 exec:~/.newsboat/ext/contrib/gtkmm                                     "~├[r] gtkmm"                                              contrib
 exec:~/.newsboat/ext/contrib/gtkmm3                                    "~├[r] gtkmm3"                                             contrib
-exec:~/.newsboat/ext/contrib/gtk-theme-adwaita                         "~├[r] gtk-theme-adwaita"                                  contrib
 https://github.com/EliverLara/Nordic/commits/master.atom               "~├[c] gtk-theme-nordic"                                   contrib
 https://github.com/EliverLara/Nordic/releases.atom                     "~├[r] gtk-theme-nordic"                                   contrib
 exec:~/.newsboat/ext/contrib/gutenprint                                "~├[r] gutenprint"                                         contrib
