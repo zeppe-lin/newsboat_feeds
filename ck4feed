@@ -37,7 +37,7 @@ sub slurp {
 
 my %SKIP = map { $_ => 1 } qw(
 	filesystem
-	rc
+	fuse
 	hcxtools3
 	kismet2016
 	libpng12
@@ -45,6 +45,8 @@ my %SKIP = map { $_ => 1 } qw(
 	mdk3
 	newsboat
 	python
+	rc
+	start-stop-daemon
 );
 
 my @PKGLIST = map s/\n//r, qx( pkgman printf "%n\n" );
