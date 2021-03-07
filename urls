@@ -136,7 +136,8 @@ exec:~/.newsboat/ext/opt/efibootmgr                                    "~├[r] 
 exec:~/.newsboat/ext/opt/efivar                                        "~├[r] efivar"                                             opt
 exec:~/.newsboat/ext/opt/elilo                                         "~├[r] elilo"                                              opt
 exec:~/.newsboat/ext/opt/exfatprogs                                    "~├[r] exfatprogs"                                         opt
-exec:~/.newsboat/ext/opt/f2fs-utils                                    "~├[r] f2fs-utils"                                         opt
+https://github.com/relan/exfat/releases.atom                           "~├[r] exfat-utils"                                        opt
+exec:~/.newsboat/ext/opt/f2fs-tools                                    "~├[r] f2fs-tools"                                         opt
 exec:~/.newsboat/ext/opt/fontconfig                                    "~├[r] fontconfig"                                         opt
 exec:~/.newsboat/ext/opt/freetype                                      "~├[r] freetype"                                           opt
 exec:~/.newsboat/ext/opt/fuse                                          "~├[r] fuse"                                               opt
