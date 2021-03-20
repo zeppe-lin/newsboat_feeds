@@ -14,7 +14,7 @@ sub slurp {
 
 	open $fd, 'urls';
 	while (<$fd>) {
-		/\"~(?:├|└)\[.\] (.*)\"/;
+		/\"~\[.\] (.*)\"/;
 		next unless length $1;
 
 		# expand some package names like name{,-scm} into a few:
@@ -34,6 +34,7 @@ sub slurp {
 # These packages doesn't need RSS Feeds, for reasons like:
 # - no distfiles
 # - intentionally used older version
+# - metapackage
 
 my %SKIP = map { $_ => 1 } qw(
 	filesystem
@@ -47,6 +48,7 @@ my %SKIP = map { $_ => 1 } qw(
 	python
 	rc
 	start-stop-daemon
+	xorg
 );
 
 my @PKGLIST = map s/\n//r, qx( pkgman printf "%n\n" );

@@ -1,0 +1,72 @@
+[2021-03-05 13:54:39] Error while retrieving ├─[CONTRIB]: Error: unsupported URL: ├─[CONTRIB]
+[2021-03-05 13:54:39] Error while retrieving ├─[CORE]: Error: unsupported URL: ├─[CORE]
+[2021-03-05 13:54:39] Error while retrieving ├─[XORG]: Error: unsupported URL: ├─[XORG]
+[2021-03-05 13:54:39] Error while retrieving ├─[OPT]: Error: unsupported URL: ├─[OPT]
+[2021-03-05 13:54:39] Error while retrieving ┌─[LINUX]: Error: unsupported URL: ┌─[LINUX]
+[2021-03-05 13:54:39] Error while retrieving ├─[CRUX]: Error: unsupported URL: ├─[CRUX]
+[2021-03-05 13:55:18] Error while retrieving https://gitlab.com/BenjaminDobell/Heimdall/-/tags?format=atom: HTTP response code said error 403
+[2021-03-05 13:55:19] Error while retrieving https://gitlab.com/libeigen/eigen/-/tags?format=atom: HTTP response code said error 403
+[2021-03-05 13:55:20] Error while retrieving https://gitlab.com/libeigen/eigen/-/commits/master?format=atom: HTTP response code said error 403
+[2021-03-05 13:55:21] Error while retrieving https://gitlab.com/BenjaminDobell/Heimdall/-/commits/master?format=atom: HTTP response code said error 403
+[2021-03-05 13:55:33] Error while retrieving https://github.com/i3/i3/commits/master.atom: HTTP response code said error 404
+[2021-03-05 13:56:17] Error while retrieving https://github.com/chinarulezzz-de/dwm-env-scm/commits/master.atom: HTTP response code said error 404
+[2021-03-05 13:57:12] Error while retrieving https://politepol.com/fd/C43tvN9GioyM: unsupported feed format
+[2021-03-05 14:03:45] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 14:03:45] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 14:03:45] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 14:03:45] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 14:03:45] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 14:54:39] Error while retrieving ├─[CONTRIB]: Error: unsupported URL: ├─[CONTRIB]
+[2021-03-05 14:54:39] Error while retrieving ├─[CORE]: Error: unsupported URL: ├─[CORE]
+[2021-03-05 14:54:39] Error while retrieving ├─[XORG]: Error: unsupported URL: ├─[XORG]
+[2021-03-05 14:54:39] Error while retrieving ├─[OPT]: Error: unsupported URL: ├─[OPT]
+[2021-03-05 14:54:39] Error while retrieving ┌─[LINUX]: Error: unsupported URL: ┌─[LINUX]
+[2021-03-05 14:54:39] Error while retrieving ├─[CRUX]: Error: unsupported URL: ├─[CRUX]
+[2021-03-05 14:55:31] Error while retrieving https://gitlab.com/BenjaminDobell/Heimdall/-/tags?format=atom: HTTP response code said error 403
+[2021-03-05 14:55:31] Error while retrieving https://gitlab.com/libeigen/eigen/-/tags?format=atom: HTTP response code said error 403
+[2021-03-05 14:55:32] Error while retrieving https://gitlab.com/libeigen/eigen/-/commits/master?format=atom: HTTP response code said error 403
+[2021-03-05 14:55:33] Error while retrieving https://gitlab.com/BenjaminDobell/Heimdall/-/commits/master?format=atom: HTTP response code said error 403
+[2021-03-05 14:55:44] Error while retrieving https://github.com/i3/i3/commits/master.atom: HTTP response code said error 404
+[2021-03-05 14:56:25] Error while retrieving https://github.com/chinarulezzz-de/dwm-env-scm/commits/master.atom: HTTP response code said error 404
+[2021-03-05 14:57:14] Error while retrieving https://politepol.com/fd/C43tvN9GioyM: unsupported feed format
+[2021-03-05 15:03:15] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 15:03:15] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 15:03:15] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 15:03:15] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 15:03:15] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 15:54:39] Error while retrieving ├─[CONTRIB]: Error: unsupported URL: ├─[CONTRIB]
+[2021-03-05 15:54:39] Error while retrieving ├─[CORE]: Error: unsupported URL: ├─[CORE]
+[2021-03-05 15:54:39] Error while retrieving ├─[XORG]: Error: unsupported URL: ├─[XORG]
+[2021-03-05 15:54:39] Error while retrieving ├─[OPT]: Error: unsupported URL: ├─[OPT]
+[2021-03-05 15:54:39] Error while retrieving ┌─[LINUX]: Error: unsupported URL: ┌─[LINUX]
+[2021-03-05 15:54:39] Error while retrieving ├─[CRUX]: Error: unsupported URL: ├─[CRUX]
+[2021-03-05 15:55:22] Error while retrieving https://gitlab.com/BenjaminDobell/Heimdall/-/tags?format=atom: HTTP response code said error 403
+[2021-03-05 15:55:23] Error while retrieving https://gitlab.com/libeigen/eigen/-/tags?format=atom: HTTP response code said error 403
+[2021-03-05 15:55:24] Error while retrieving https://gitlab.com/libeigen/eigen/-/commits/master?format=atom: HTTP response code said error 403
+[2021-03-05 15:55:24] Error while retrieving https://gitlab.com/BenjaminDobell/Heimdall/-/commits/master?format=atom: HTTP response code said error 403
+[2021-03-05 15:55:33] Error while retrieving https://github.com/i3/i3/commits/master.atom: HTTP response code said error 404
+[2021-03-05 15:56:09] Error while retrieving https://github.com/chinarulezzz-de/dwm-env-scm/commits/master.atom: HTTP response code said error 404
+[2021-03-05 15:56:51] Error while retrieving https://politepol.com/fd/C43tvN9GioyM: unsupported feed format
+[2021-03-05 16:03:32] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 16:03:32] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 16:03:32] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 16:03:32] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 16:03:32] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 16:54:39] Error while retrieving ├─[CONTRIB]: Error: unsupported URL: ├─[CONTRIB]
+[2021-03-05 16:54:39] Error while retrieving ├─[CORE]: Error: unsupported URL: ├─[CORE]
+[2021-03-05 16:54:39] Error while retrieving ├─[XORG]: Error: unsupported URL: ├─[XORG]
+[2021-03-05 16:54:39] Error while retrieving ├─[OPT]: Error: unsupported URL: ├─[OPT]
+[2021-03-05 16:54:39] Error while retrieving ┌─[LINUX]: Error: unsupported URL: ┌─[LINUX]
+[2021-03-05 16:54:39] Error while retrieving ├─[CRUX]: Error: unsupported URL: ├─[CRUX]
+[2021-03-05 16:55:18] Error while retrieving https://gitlab.com/BenjaminDobell/Heimdall/-/tags?format=atom: HTTP response code said error 403
+[2021-03-05 16:55:19] Error while retrieving https://gitlab.com/libeigen/eigen/-/tags?format=atom: HTTP response code said error 403
+[2021-03-05 16:55:19] Error while retrieving https://gitlab.com/libeigen/eigen/-/commits/master?format=atom: HTTP response code said error 403
+[2021-03-05 16:55:20] Error while retrieving https://gitlab.com/BenjaminDobell/Heimdall/-/commits/master?format=atom: HTTP response code said error 403
+[2021-03-05 16:55:29] Error while retrieving https://github.com/i3/i3/commits/master.atom: HTTP response code said error 404
+[2021-03-05 16:56:04] Error while retrieving https://github.com/chinarulezzz-de/dwm-env-scm/commits/master.atom: HTTP response code said error 404
+[2021-03-05 16:56:46] Error while retrieving https://politepol.com/fd/C43tvN9GioyM: unsupported feed format
+[2021-03-05 17:03:12] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 17:03:12] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 17:03:12] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 17:03:12] Error while retrieving │: Error: unsupported URL: │
+[2021-03-05 17:03:12] Error while retrieving │: Error: unsupported URL: │
