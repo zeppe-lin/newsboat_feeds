@@ -1,1 +1,28 @@
-repology.sh
+#!/bin/sh
+
+name=${0##*/}
+url=ftp://mama.indstate.edu/linux/tree/
+
+cat <<EOF
+<?xml version="1.0" ?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel>
+<title>$name</title>
+<link>$url</link>
+<description></description>
+</channel>
+EOF
+
+curl -s $url | sort -r -k 9,9 | awk -v URL=$url '{
+print "<item>";
+print "<title>" $9 "</title>";
+print "<link>" URL "</link>";
+print "<description></description>";
+print "</item>";
+}'
+
+# End of file

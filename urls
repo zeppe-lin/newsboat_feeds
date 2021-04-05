@@ -57,7 +57,7 @@ https://github.com/libarchive/libarchive/releases.atom                          
 https://git.kernel.org/pub/scm/linux/kernel/git/morgan/libcap.git/atom                              "~[c] libcap"                                             core
 https://github.com/libffi/libffi/releases.atom                                                      "~[r] libffi"                                             core
 exec:~/.newsboat/ext/gmp                                                                            "~[r] libgmp"                                             core
-exec:~/.newsboat/ext/libmpc                                                                         "~[r] libmpc"                                             core
+exec:~/.newsboat/ext/mpc                                                                            "~[r] libmpc"                                             core
 exec:~/.newsboat/ext/mpfr                                                                           "~[r] libmpfr"                                            core
 https://github.com/thkukuk/libnsl/releases.atom                                                     "~[r] libnsl"                                             core
 https://sourceforge.net/projects/pcre/rss?path=/pcre                                                "~[r] libpcre"                                            core
@@ -70,9 +70,7 @@ exec:~/.newsboat/ext/lzo                                                        
 https://git.savannah.nongnu.org/cgit/m4.git/atom                                                    "~[c] m4"                                                 core
 https://git.savannah.nongnu.org/cgit/make.git/atom                                                  "~[c] make"                                               core
 https://git.savannah.nongnu.org/cgit/man-db.git/atom                                                "~[c] man-db"                                             core
-#https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/
-#https://git.kernel.org/pub/scm/docs/man-pages/man-pages-posix.git/
-exec:~/.newsboat/ext/manpages                                                                       "~[r] man-pages"                                          core
+exec:~/.newsboat/ext/man-pages                                                                      "~[r] man-pages"                                          core
 exec:~/.newsboat/ext/mlocate                                                                        "~[r] mlocate"                                            core
 exec:~/.newsboat/ext/mpdecimal                                                                      "~[r] mpdecimal"                                          core
 https://github.com/netwide-assembler/nasm/releases.atom                                             "~[r] nasm"                                               core
@@ -82,7 +80,7 @@ https://github.com/openssl/openssl/releases.atom                                
 https://git.savannah.nongnu.org/cgit/patch.git/atom                                                 "~[c] patch"                                              core
 https://github.com/pciutils/pciutils/releases.atom                                                  "~[r] pciutils"                                           core
 https://github.com/Perl/perl5/releases.atom                                                         "~[r] perl"                                               core
-https://gitlab.freedesktop.org/pkg-config/pkg-config/-/tags?format=atom                             "~[r] pkg-config"                                        core
+https://gitlab.freedesktop.org/pkg-config/pkg-config/-/tags?format=atom                             "~[r] pkg-config"                                         core
 https://github.com/zeppe-lin/pkgman/commits/master.atom                                             "~[c] pkgman"                                             core
 https://github.com/zeppe-lin/pkgmk/commits/master.atom                                              "~[c] pkgmk"                                              core
 https://github.com/zeppe-lin/pkgutils/commits/master.atom                                           "~[c] pkgutils"                                           core
@@ -165,7 +163,7 @@ https://github.com/libevent/libevent/releases.atom                              
 https://github.com/gpg/libgcrypt/releases.atom                                                      "~[r] libgcrypt"                                          opt
 https://github.com/gpg/libgpg-error/releases.atom                                                   "~[r] libgpg-error"                                       opt
 https://gitlab.gnome.org/GNOME/libgudev/-/tags?format=atom                                          "~[r] libgudev"                                           opt
-exec:~/.newsboat/ext/libidn2                                                                        "~[r] libidn2"                                            opt
+exec:~/.newsboat/ext/libidn                                                                         "~[r] libidn{,2}"                                         opt
 https://github.com/libjpeg-turbo/libjpeg-turbo/releases.atom                                        "~[r] libjpeg-turbo"                                      opt
 https://github.com/gpg/libksba/releases.atom                                                        "~[r] libksba"                                            opt
 https://github.com/thom311/libnl/releases.atom                                                      "~[r] libnl"                                              opt
@@ -242,7 +240,7 @@ https://github.com/NVIDIA/libglvnd/releases.atom                                
 https://gitlab.freedesktop.org/libinput/libinput/-/tags?format=atom                                 "~[r] libinput"                                           xorg
 https://gitlab.freedesktop.org/xorg/lib/pthread-stubs/-/tags?format=atom                            "~[r] libpthread-stubs"                                   xorg
 https://github.com/intel/libva/releases.atom                                                        "~[r] libva"                                              xorg
-exec:~/.newsboat/ext/libvdpau                                                                       "~[r] libvdpau"                                           xorg
+https://gitlab.freedesktop.org/vdpau/libvdpau/-/tags?format=atom                                    "~[r] libvdpau"                                           xorg
 https://github.com/mesa3d/mesa/releases.atom                                                        "~[r] mesa"                                               xorg
 exec:~/.newsboat/ext/mtdev                                                                          "~[r] mtdev"                                              xorg
 https://sourceforge.net/projects/polyglotman/rss?path=/polyglotman                                  "~[r] polyglotman"                                        xorg
@@ -411,8 +409,8 @@ https://gitlab.freedesktop.org/xorg/app/xrestop/-/tags?format=atom              
 https://github.com/aircrack-ng/aircrack-ng/commits/master.atom                                      "~[c] aircrack-ng-scm"                                    contrib
 https://github.com/bassdr/alsaequal/commits/master.atom                                             "~[c] alsaequal"                                          contrib
 https://github.com/bassdr/alsaequal/releases.atom                                                   "~[r] alsaequal"                                          contrib
-https://github.com/OWASP/Amass/commits/master.atom                                                  "~[c] amass"                                              contrib
-https://github.com/OWASP/Amass/releases.atom                                                        "~[r] amass"                                              contrib
+#https://github.com/OWASP/Amass/commits/master.atom                                                  "~[c] amass"                                              contrib
+#https://github.com/OWASP/Amass/releases.atom                                                        "~[r] amass"                                              contrib
 #https://github.com/GPUOpen-LibrariesAndSDKs/AMF/releases.atom                                       "~[r] amf-headers"                                        contrib
 exec:~/.newsboat/ext/android-sdk-platform-tools                                                     "~[r] android-sdk-platform-tools-bin"                     contrib
 https://github.com/iBotPeaches/Apktool/commits/master.atom                                          "~[c] apktool-bin"                                        contrib
@@ -463,12 +461,12 @@ https://github.com/tianon/cgroupfs-mount/releases.atom                          
 exec:~/.newsboat/ext/chrpath                                                                        "~[r] chrpath"                                            contrib
 https://sourceforge.net/projects/terminus-font/rss?path=/                                           "~[r] {console,xorg}-font-terminus"                       contrib
 #https://github.com/ConsoleKit2/ConsoleKit2/releases.atom                                            "~[r] consolekit"                                         contrib
-exec:~/.newsboat/ext/containerd                                                                     "~[r] containerd"                                         contrib
+#https://github.com/containerd/containerd/releases.atom                                              "~[r] containerd"                                         contrib
 https://github.com/joswr1ght/cowpatty/commits/master.atom                                           "~[c] cowpatty"                                           contrib
 https://github.com/joswr1ght/cowpatty/releases.atom                                                 "~[r] cowpatty"                                           contrib
 https://github.com/danmar/cppcheck/releases.atom                                                    "~[r] cppcheck"                                           contrib
 exec:~/.newsboat/ext/cpufrequtils                                                                   "~[r] cpufrequtils"                                       contrib
-exec:~/.newsboat/ext/cpuid-etallen                                                                  "~[r] cpuid"                                              contrib
+exec:~/.newsboat/ext/cpuid                                                                          "~[r] cpuid"                                              contrib
 https://github.com/npitre/cramfs-tools/commits/master.atom                                          "~[c] cramfs-tools"                                       contrib
 https://github.com/npitre/cramfs-tools/releases.atom                                                "~[r] cramfs-tools"                                       contrib
 https://github.com/cyrusimap/cyrus-sasl/releases.atom                                               "~[r] cyrus-sasl"                                         contrib
@@ -486,10 +484,10 @@ https://github.com/chinarulezzz-de/dmenu-4.5-chinarulezzz/commits/master.atom   
 https://savannah.nongnu.org/news/atom.php?group=dmidecode                                           "~[r] dmidecode"                                          contrib
 https://github.com/measurement-factory/dnstop/commits/master.atom                                   "~[c] dnstop"                                             contrib
 exec:~/.newsboat/ext/docbook-xml                                                                    "~[r] docbook-xml"                                        contrib
-exec:~/.newsboat/ext/docbook-xsl                                                                    "~[r] docbook-xsl"                                        contrib
-exec:~/.newsboat/ext/docker                                                                         "~[r] docker"                                             contrib
-exec:~/.newsboat/ext/docker-compose                                                                 "~[r] docker-compose"                                     contrib
-exec:~/.newsboat/ext/python-docutils                                                                "~[r] docutils"                                           contrib
+https://github.com/docbook/xslt10-stylesheets/releases.atom                                         "~[r] docbook-xsl"                                        contrib
+#https://github.com/docker/cli/releases.atom                                                         "~[r] docker"                                             contrib
+#https://github.com/docker/compose/releases.atom                                                     "~[r] docker-compose"                                     contrib
+https://pypi.org/rss/project/docutils/releases.xml                                                  "~[r] docutils"                                           contrib
 https://sourceforge.net/projects/dos2unix/rss?path=/dos2unix                                        "~[r] dos2unix"                                           contrib
 #https://github.com/google/double-conversion/releases.atom                                           "~[r] double-conversion"                                  contrib
 https://github.com/doxygen/doxygen/releases.atom                                                    "~[r] doxygen"                                            contrib
@@ -527,7 +525,7 @@ https://github.com/chinarulezzz/gencc/commits/master.atom                       
 https://github.com/chinarulezzz/gencc/releases.atom                                                 "~[r] gencc"                                              contrib
 https://gitlab.gnome.org/GNOME/gexiv2/-/tags?format=atom                                            "~[r] gexiv2"                                             contrib
 #https://github.com/ArtifexSoftware/ghostpdl-downloads/releases.atom                                 "~[r] ghostscript"                                        contrib
-exec:~/.newsboat/ext/giblib                                                                         "~[r] giblib"                                             contrib
+#exec:~/.newsboat/ext/giblib                                                                         "~[r] giblib"                                             contrib # deprecated
 https://sourceforge.net/projects/giflib/rss?path=/                                                  "~[r] giflib"                                             contrib
 https://gitlab.gnome.org/GNOME/gimp/-/tags?format=atom                                              "~[r] gimp"                                               contrib
 https://github.com/pwmt/girara/commits/develop.atom                                                 "~[c] girara"                                             contrib
@@ -537,7 +535,7 @@ https://gitlab.gnome.org/GNOME/glib-networking/-/tags?format=atom               
 https://github.com/KhronosGroup/glslang/releases.atom                                               "~[r] glslang"                                            contrib
 https://sourceforge.net/p/gmtp/code/feed/                                                           "~[c] gmtp"                                               contrib
 https://sourceforge.net/projects/gmtp/rss?path=/                                                    "~[r] gmtp"                                               contrib
-https://github.com/golang/go/releases.atom                                                          "~[r] go"                                                 contrib
+#https://github.com/golang/go/releases.atom                                                          "~[r] go"                                                 contrib
 exec:~/.newsboat/ext/google-chrome                                                                  "~[r] google-chrome-bin"                                  contrib
 https://github.com/gpg/gpgme/releases.atom                                                          "~[r] gpgme"                                              contrib
 #https://github.com/ebassi/graphene/releases.atom                                                    "~[r] graphene"                                           contrib
@@ -569,12 +567,12 @@ https://github.com/ZerBea/hcxdumptool/commits/master.atom                       
 https://github.com/ZerBea/hcxdumptool/releases.atom                                                 "~[r] hcxdumptool"                                        contrib
 https://github.com/ZerBea/hcxtools/commits/master.atom                                              "~[c] hcxtools"                                           contrib
 https://github.com/ZerBea/hcxtools/releases.atom                                                    "~[r] hcxtools"                                           contrib
-exec:~/.newsboat/ext/heimdall                                                                       "~[r] heimdall"                                           contrib
+https://github.com/Benjamin-Dobell/Heimdall/releases.atom                                           "~[r] heimdall"                                           contrib
 #exec:~/.newsboat/ext/help2man                                                                       "~[r] help2man"                                           contrib
 https://github.com/hexchat/hexchat/commits/master.atom                                              "~[c] hexchat"                                            contrib
 https://github.com/hexchat/hexchat/releases.atom                                                    "~[r] hexchat"                                            contrib
-exec:~/.newsboat/ext/hfsplus                                                                        "~[r] hfsplusutils"                                       contrib
-exec:~/.newsboat/ext/hfsutils                                                                       "~[r] hfsutils"                                           contrib
+#exec:~/.newsboat/ext/hfsplus                                                                        "~[r] hfsplusutils"                                       contrib # obsolete
+#exec:~/.newsboat/ext/hfsutils                                                                       "~[r] hfsutils"                                           contrib # obsolete
 https://gitlab.freedesktop.org/xdg/default-icon-theme/-/tags?format=atom                            "~[r] hicolor-icon-theme"                                 contrib
 #exec:~/.newsboat/ext/hunspell                                                                       "~[r] hunspell"                                           contrib
 #exec:~/.newsboat/ext/hunspell-en                                                                    "~[r] hunspell-en"                                        contrib
@@ -586,10 +584,10 @@ exec:~/.newsboat/ext/i2c-tools                                                  
 #https://github.com/i3/i3status/commits/master.atom                                                  "~[c] i3status"                                           contrib
 #https://github.com/i3/i3status/releases.atom                                                        "~[r] i3status"                                           contrib
 https://github.com/ImageMagick/ImageMagick/releases.atom                                            "~[r] imagemagick"                                        contrib
-exec:~/.newsboat/ext/imlib2                                                                         "~[r] imlib2"                                             contrib
+https://sourceforge.net/projects/enlightenment/rss?path=/imlib2-src                                 "~[r] imlib2"                                             contrib
 #https://gitlab.com/inkscape/inkscape/-/tags?format=atom                                             "~[r] inkscape"                                           contrib
 https://github.com/inotify-tools/inotify-tools/releases.atom                                        "~[r] inotify-tools"                                      contrib
-exec:~/.newsboat/ext/intel-microcode                                                                "~[r] intel-{firmware,ucode}"                             contrib
+https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases.atom                   "~[r] intel-{firmware,ucode}"                             contrib
 https://github.com/smxi/inxi/commits/master.atom                                                    "~[c] inxi"                                               contrib
 https://github.com/smxi/inxi/releases.atom                                                          "~[r] inxi"                                               contrib
 https://github.com/Tomas-M/iotop/releases.atom                                                      "~[r] iotop"                                              contrib
@@ -603,7 +601,7 @@ https://github.com/itstool/itstool/releases.atom                                
 exec:~/.newsboat/ext/iucode-tool                                                                    "~[r] iucode-tool"                                        contrib
 https://github.com/skylot/jadx/commits/master.atom                                                  "~[c] jadx-bin"                                           contrib
 https://github.com/skylot/jadx/releases.atom                                                        "~[r] jadx-bin"                                           contrib
-exec:~/.newsboat/ext/jdk8-bin                                                                       "~[r] jdk8-bin"                                           contrib
+https://github.com/corretto/corretto-8/releases.atom                                                "~[r] jdk8-bin"                                           contrib
 https://github.com/openwall/john/releases.atom                                                      "~[r] john"                                               contrib
 https://github.com/rezasp/joomscan/commits/master.atom                                              "~[c] joomscan-scm"                                       contrib
 https://github.com/stedolan/jq/releases.atom                                                        "~[r] jq"                                                 contrib
@@ -637,22 +635,20 @@ https://github.com/chinarulezzz/karma/releases.atom                             
 exec:~/.newsboat/ext/ladspa                                                                         "~[r] ladspa"                                             contrib
 https://sourceforge.net/projects/lame/rss?path=/lame                                                "~[r] lame"                                               contrib
 https://sourceforge.net/projects/lcms/rss?path=/lcms                                                "~[r] lcms2"                                              contrib
-exec:~/.newsboat/ext/lft                                                                            "~[r] lft"                                                contrib
 #https://code.videolan.org/videolan/liba52/-/tags?format=atom                                        "~[r] liba52"                                             contrib
 #https://gitlab.xiph.org/xiph/libao/-/tags?format=atom                                               "~[r] libao"                                              contrib
 #https://gitlab.gnome.org/Archive/libart_lgpl/-/tags?format=atom                                    "~[r] libart_lgpl"                                        contrib # deprecated
 https://github.com/libass/libass/releases.atom                                                      "~[r] libass"                                             contrib
 https://gitlab.freedesktop.org/libbsd/libbsd/-/tags?format=atom                                     "~[r] libbsd"                                             contrib
 #exec:~/.newsboat/ext/libcanberra                                                                    "~[r] libcanberra"                                        contrib
-exec:~/.newsboat/ext/libcddb                                                                        "~[r] libcddb"                                            contrib
-exec:~/.newsboat/ext/libcdio                                                                        "~[r] libcdio"                                            contrib
-exec:~/.newsboat/ext/libcdio-paranoia                                                               "~[r] libcdio-paranoia"                                   contrib
+https://sourceforge.net/projects/libcddb/rss?path=/libcddb                                          "~[r] libcddb"                                            contrib
+exec:~/.newsboat/ext/libcdio                                                                        "~[r] libcdio{,-paranoia}"                                contrib
 https://github.com/hyperrealm/libconfig/releases.atom                                               "~[r] libconfig"                                          contrib
 #https://github.com/libconfuse/libconfuse/releases.atom                                              "~[r] libconfuse"                                         contrib
 #https://gitlab.gnome.org/Archive/libcroco/-/tags?format=atom                                       "~[r] libcroco"                                           contrib # deprecated
 #https://code.videolan.org/videolan/libdca/-/tags?format=atom                                        "~[r] libdca"                                             contrib
 https://github.com/ofalk/libdnet/releases.atom                                                      "~[r] libdnet"                                            contrib
-https://sourceforge.net/projects/libdv/rss?path=/libdv                                              "~[r] libdv"                                              contrib
+#https://sourceforge.net/projects/libdv/rss?path=/libdv                                              "~[r] libdv"                                              contrib
 https://code.videolan.org/videolan/libdvdcss/-/tags?format=atom                                     "~[r] libdvdcss"                                          contrib
 https://code.videolan.org/videolan/libdvdnav/-/tags?format=atom                                     "~[r] libdvdnav"                                          contrib
 https://code.videolan.org/videolan/libdvdread/-/tags?format=atom                                    "~[r] libdvdread"                                         contrib
@@ -665,22 +661,20 @@ https://github.com/wolfcw/libfaketime/releases.atom                             
 https://github.com/libgd/libgd/releases.atom                                                        "~[r] libgd"                                              contrib
 #exec:~/.newsboat/ext/geoip                                                                          "~[r] libgeoip"                                           contrib
 exec:~/.newsboat/ext/libglade                                                                       "~[r] libglade"                                           contrib
-exec:~/.newsboat/ext/libid3tag                                                                      "~[r] libid3tag"                                          contrib
-exec:~/.newsboat/ext/libidl                                                                         "~[r] libidl"                                             contrib
-exec:~/.newsboat/ext/libidn                                                                         "~[r] libidn"                                             contrib
-exec:~/.newsboat/ext/libiscsi                                                                       "~[r] libiscsi"                                           contrib
-exec:~/.newsboat/ext/libmikmod                                                                      "~[r] libmikmod"                                          contrib
+https://sourceforge.net/projects/mad/rss?path=/libid3tag                                            "~[r] libid3tag"                                          contrib
+https://github.com/sahlberg/libiscsi/releases.atom                                                  "~[r] libiscsi"                                           contrib
+#exec:~/.newsboat/ext/libmikmod                                                                      "~[r] libmikmod"                                          contrib
 #exec:~/.newsboat/ext/libmms                                                                         "~[r] libmms"                                             contrib
-exec:~/.newsboat/ext/libmng                                                                         "~[r] libmng"                                             contrib
+https://sourceforge.net/projects/libmng/rss?path=/libmng-devel                                      "~[r] libmng"                                             contrib
 exec:~/.newsboat/ext/libmnl                                                                         "~[r] libmnl"                                             contrib
-exec:~/.newsboat/ext/libmodplug                                                                     "~[r] libmodplug"                                         contrib
+#exec:~/.newsboat/ext/libmodplug                                                                     "~[r] libmodplug"                                         contrib
 #exec:~/.newsboat/ext/libmpcdec                                                                      "~[r] libmpcdec"                                          contrib
 #https://sourceforge.net/p/libmpeg2/activity/feed                                                    "~[r] libmpeg2"                                           contrib
 https://sourceforge.net/p/libmtp/code/feed/                                                         "~[c] libmtp"                                             contrib
 https://sourceforge.net/projects/libmtp/rss?path=/libmtp                                            "~[r] libmtp"                                             contrib
 https://github.com/mypaint/libmypaint/releases.atom                                                 "~[r] libmypaint"                                         contrib
 https://github.com/libnet/libnet/releases.atom                                                      "~[r] libnet"                                             contrib
-exec:~/.newsboat/ext/libnetfilter-queue                                                             "~[r] libnetfilter_queue"                                 contrib
+exec:~/.newsboat/ext/libnetfilter_queue                                                             "~[r] libnetfilter_queue"                                 contrib
 exec:~/.newsboat/ext/libnfnetlink                                                                   "~[r] libnfnetlink"                                       contrib
 https://gitlab.gnome.org/GNOME/libnotify/-/tags?format=atom                                         "~[r] libnotify"                                          contrib
 https://github.com/xiph/ogg/releases.atom                                                           "~[r] libogg"                                             contrib
@@ -690,7 +684,7 @@ https://github.com/libproxy/libproxy/releases.atom                              
 #exec:~/.newsboat/ext/librsvg-compat                                                                "~[r] librsvg-compat"                                     contrib # deprecated
 #https://github.com/libsdl-org/sdl12-compat/commits/main.atom                                       "~[c] libsdl"                                             contrib # deprecated
 #https://github.com/libsdl-org/SDL-1.2/releases.atom                                                "~[r] libsdl"                                             contrib # deprecated
-https://github.com/libsdl-org/SDL/releases.atom                                                     "~[r] libsdl2"                                            contrib
+#https://github.com/libsdl-org/SDL/releases.atom                                                     "~[r] libsdl2"                                            contrib
 https://github.com/seccomp/libseccomp/releases.atom                                                 "~[r] libseccomp"                                         contrib
 #https://gitlab.xiph.org/xiph/icecast-libshout/-/tags?format=atom                                    "~[r] libshout"                                           contrib
 https://github.com/libsigcplusplus/libsigcplusplus/releases.atom                                    "~[r] libsigc++{,2}"                                      contrib
@@ -723,11 +717,11 @@ https://github.com/robertdavidgraham/masscan/commits/master.atom                
 https://github.com/aircrack-ng/mdk4/commits/master.atom                                             "~[c] mdk4-scm"                                           contrib
 https://github.com/rapid7/metasploit-framework/commits/master.atom                                  "~[c] metasploit"                                         contrib
 https://github.com/rapid7/metasploit-framework/releases.atom                                        "~[r] metasploit"                                         contrib
-exec:~/.newsboat/ext/mii-tool                                                                       "~[r] mii-tool"                                           contrib
+#exec:~/.newsboat/ext/mii-tool                                                                       "~[r] mii-tool"                                           contrib # deprecated
 exec:~/.newsboat/ext/minicom                                                                        "~[r] minicom"                                            contrib
 #https://sourceforge.net/projects/mjpeg/rss?path=/mjpegtools                                         "~[r] mjpegtools"                                         contrib
 https://gitlab.gnome.org/GNOME/mm-common/-/tags?format=atom                                         "~[r] mm-common"                                          contrib
-https://sourceforge.net/projects/mpg123/rss?path=/mpg123                                            "~[r] mpg123"                                             contrib
+#https://sourceforge.net/projects/mpg123/rss?path=/mpg123                                            "~[r] mpg123"                                             contrib
 https://github.com/mpv-player/mpv/releases.atom                                                     "~[r] mpv"                                                contrib
 https://github.com/mypaint/mypaint-brushes/releases.atom                                            "~[r] mypaint-brushes"                                    contrib
 https://github.com/nmap/ncrack/commits/master.atom                                                  "~[c] ncrack"                                             contrib
@@ -749,7 +743,7 @@ https://github.com/linux-nvme/nvme-cli/releases.atom                            
 #https://github.com/AcademySoftwareFoundation/openexr/releases.atom                                  "~[r] openexr"                                            contrib
 #exec:~/.newsboat/ext/openjpeg                                                                      "~[r] openjpeg"                                           contrib # deprecated
 #https://github.com/uclouvain/openjpeg/releases.atom                                                 "~[r] openjpeg2"                                          contrib
-https://github.com/openldap/openldap/releases.atom                                                  "~[r] openldap"                                           contrib
+#https://github.com/openldap/openldap/releases.atom                                                  "~[r] openldap"                                           contrib
 https://github.com/OpenVPN/openvpn/releases.atom                                                    "~[r] openvpn"                                            contrib
 https://gitlab.xiph.org/xiph/opus/-/tags?format=atom                                                "~[r] opus"                                               contrib
 #https://gitlab.freedesktop.org/gstreamer/orc/-/tags?format=atom                                     "~[r] orc"                                                contrib
@@ -825,7 +819,7 @@ https://github.com/frealgagu/PCSX-Reloaded/releases.atom                        
 https://github.com/chinarulezzz/pentestuff/commits/master.atom                                      "~[r] pentestuff"                                         contrib
 https://metacpan.org/feed/distribution/Perl-Tidy                                                    "~[r] perltidy"                                           contrib
 https://github.com/sundowndev/PhoneInfoga/releases.atom                                             "~[r] phoneinfoga-bin"                                    contrib
-https://github.com/criptych/physfs/releases.atom                                                    "~[r] physfs"                                             contrib
+#https://github.com/criptych/physfs/releases.atom                                                    "~[r] physfs"                                             contrib
 https://github.com/wiire-a/pixiewps/commits/master.atom                                             "~[c] pixiewps"                                           contrib
 https://github.com/wiire-a/pixiewps/releases.atom                                                   "~[r] pixiewps"                                           contrib
 https://github.com/chinarulezzz/pixload/commits/master.atom                                         "~[c] pixload"                                            contrib
@@ -842,83 +836,83 @@ https://github.com/fenrus75/powertop/releases.atom                              
 #https://github.com/protobuf-c/protobuf-c/releases.atom                                              "~[r] protobuf-c"                                         contrib
 https://github.com/rofl0r/proxychains-ng/commits/master.atom                                        "~[c] proxychains-ng"                                     contrib
 https://github.com/rofl0r/proxychains-ng/releases.atom                                              "~[r] proxychains-ng"                                     contrib
-https://github.com/publicsuffix/list/commits/master.atom                                            "~[c] publicsuffix-list"                                  contrib
+#https://github.com/publicsuffix/list/commits/master.atom                                            "~[c] publicsuffix-list"                                  contrib
 #https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/commits/master?format=atom                   "~[c] pulseaudio"                                         contrib
 #https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags?format=atom                             "~[r] pulseaudio"                                         contrib
 #https://gitlab.gnome.org/Archive/pygtk/-/tags?format=atom                                          "~[r] pygtk"                                              contrib # deprecated
 https://github.com/wbond/asn1crypto/releases.atom                                                   "~[r] python3-asn1crypto"                                 contrib
-https://github.com/python-attrs/attrs/releases.atom                                                 "~[r] python3-attrs"                                      contrib
-https://github.com/pyca/bcrypt/releases.atom                                                        "~[r] python3-bcrypt"                                     contrib
-https://github.com/pydanny/cached-property/releases.atom                                            "~[r] python3-cached-property"                            contrib
+#https://github.com/python-attrs/attrs/releases.atom                                                 "~[r] python3-attrs"                                      contrib
+#https://github.com/pyca/bcrypt/releases.atom                                                        "~[r] python3-bcrypt"                                     contrib
+#https://github.com/pydanny/cached-property/releases.atom                                            "~[r] python3-cached-property"                            contrib
 #https://github.com/pygobject/pycairo/releases.atom                                                  "~[r] python3-cairo"                                      contrib
 https://foss.heptapod.net/pypy/cffi/-/tags?format=atom                                              "~[r] python3-cffi"                                       contrib
 https://github.com/chardet/chardet/releases.atom                                                    "~[r] python3-chardet"                                    contrib
 https://github.com/pyca/cryptography/releases.atom                                                  "~[r] python3-cryptography"                               contrib
-https://github.com/cython/cython/releases.atom                                                      "~[r] python3-cython"                                     contrib
+#https://github.com/cython/cython/releases.atom                                                      "~[r] python3-cython"                                     contrib
 #https://pypi.org/rss/project/distlib/releases.xml                                                   "~[r] python3-distlib"                                    contrib
-https://pypi.org/rss/project/distro/releases.xml                                                    "~[r] python3-distro"                                     contrib
-https://pypi.org/rss/project/docker/releases.xml                                                    "~[r] python3-docker"                                     contrib
-https://pypi.org/rss/project/dockerpty/releases.xml                                                 "~[r] python3-dockerpty"                                  contrib
+#https://pypi.org/rss/project/distro/releases.xml                                                    "~[r] python3-distro"                                     contrib
+#https://pypi.org/rss/project/docker/releases.xml                                                    "~[r] python3-docker"                                     contrib
+#https://pypi.org/rss/project/dockerpty/releases.xml                                                 "~[r] python3-dockerpty"                                  contrib
 https://pypi.org/rss/project/docopt/releases.xml                                                    "~[r] python3-docopt"                                     contrib
-https://pypi.org/rss/project/python-dotenv/releases.xml                                             "~[r] python3-dotenv"                                     contrib
+#https://pypi.org/rss/project/python-dotenv/releases.xml                                             "~[r] python3-dotenv"                                     contrib
 #https://pypi.org/rss/project/filelock/releases.xml                                                  "~[r] python3-filelock"                                   contrib
 #https://gitlab.gnome.org/GNOME/pygobject/-/tags?format=atom                                         "~[r] python3-gobject"                                    contrib
 https://pypi.org/rss/project/idna/releases.xml                                                      "~[r] python3-idna"                                       contrib
 https://pypi.org/rss/project/importlib-metadata/releases.xml                                        "~[r] python3-importlib_metadata"                         contrib
-https://pypi.org/rss/project/jsonschema/releases.xml                                                "~[r] python3-jsonschema"                                 contrib
-https://pypi.org/rss/project/paramiko/releases.xml                                                  "~[r] python3-paramiko"                                   contrib
+#https://pypi.org/rss/project/jsonschema/releases.xml                                                "~[r] python3-jsonschema"                                 contrib
+#https://pypi.org/rss/project/paramiko/releases.xml                                                  "~[r] python3-paramiko"                                   contrib
 https://pypi.org/rss/project/pip/releases.xml                                                       "~[r] python3-pip"                                        contrib
 https://pypi.org/rss/project/ply/releases.xml                                                       "~[r] python3-ply"                                        contrib
 https://pypi.org/rss/project/pycparser/releases.xml                                                 "~[r] python3-pycparser"                                  contrib
 https://pypi.org/rss/project/pygments/releases.xml                                                  "~[r] python3-pygments"                                   contrib
-https://pypi.org/rss/project/pynacl/releases.xml                                                    "~[r] python3-pynacl"                                     contrib
+#https://pypi.org/rss/project/pynacl/releases.xml                                                    "~[r] python3-pynacl"                                     contrib
 https://pypi.org/rss/project/pyopenssl/releases.xml                                                 "~[r] python3-pyopenssl"                                  contrib
-https://pypi.org/rss/project/pyrsistent/releases.xml                                                "~[r] python3-pyrsistent"                                 contrib
+#https://pypi.org/rss/project/pyrsistent/releases.xml                                                "~[r] python3-pyrsistent"                                 contrib
 https://pypi.org/rss/project/pysocks/releases.xml                                                   "~[r] python3-pysocks"                                    contrib
 https://pypi.org/rss/project/requests/releases.xml                                                  "~[r] python3-requests"                                   contrib
 https://pypi.org/rss/project/texttable/releases.xml                                                 "~[r] python3-texttable"                                  contrib
 https://pypi.org/rss/project/urllib3/releases.xml                                                   "~[r] python3-urllib3"                                    contrib
-https://pypi.org/rss/project/websocket-client/releases.xml                                          "~[r] python3-websocket-client"                           contrib
-https://pypi.org/rss/project/pyyaml/releases.xml                                                    "~[r] python3-yaml"                                       contrib
+#https://pypi.org/rss/project/websocket-client/releases.xml                                          "~[r] python3-websocket-client"                           contrib
+#https://pypi.org/rss/project/pyyaml/releases.xml                                                    "~[r] python3-yaml"                                       contrib
 https://pypi.org/rss/project/zipp/releases.xml                                                      "~[r] python3-zipp"                                       contrib
 #https://github.com/pygobject/pycairo/releases.atom                                                 "~[r] python-cairo"                                       contrib # deprecated
 https://pypi.org/rss/project/pygobject/releases.xml                                                 "~[r] python-gobject"                                     contrib
 #exec:~/.newsboat/ext/python-gobject-compat                                                         "~[r] python-gobject-compat"                              contrib # deprecated
 #https://pypi.org/rss/project/setuptools/releases.xml                                               "~[r] python-setuptools"                                  contrib # deprecated
-exec:~/.newsboat/ext/qemu                                                                           "~[r] qemu{,-agent,-all,-x86x-arm-riscv-nogui}"           contrib
+exec:~/.newsboat/ext/qemu                                                                           "~[r] qemu"                                               contrib
 #https://github.com/fukuchi/libqrencode/releases.atom                                                "~[r] qrencode"                                           contrib
 https://github.com/volgk/qrot/commits/master.atom                                                   "~[c] qrot-scm"                                           contrib
 #exec:~/.newsboat/ext/qt5                                                                           "~[r] qt5"                                                contrib # deprecated
-https://sourceforge.net/projects/qt5ct/rss?path=/                                                   "~[c] qt5ct"                                              contrib
-https://github.com/qt/qtstyleplugins/commits/master.atom                                            "~[c] qt5-styleplugins"                                   contrib
-https://github.com/qt/qtstyleplugins/releases.atom                                                  "~[r] qt5-styleplugins"                                   contrib
+#https://sourceforge.net/projects/qt5ct/rss?path=/                                                   "~[c] qt5ct"                                              contrib
+#https://github.com/qt/qtstyleplugins/commits/master.atom                                            "~[c] qt5-styleplugins"                                   contrib
+#https://github.com/qt/qtstyleplugins/releases.atom                                                  "~[r] qt5-styleplugins"                                   contrib
 #https://github.com/stachenov/quazip/releases.atom                                                   "~[r] quazip5"                                            contrib
 https://github.com/radareorg/radare2/commits/master.atom                                            "~[c] radare2"                                            contrib
 https://github.com/radareorg/radare2/releases.atom                                                  "~[r] radare2"                                            contrib
 https://github.com/rdesktop/rdesktop/releases.atom                                                  "~[r] rdesktop"                                           contrib
 https://github.com/t6x/reaver-wps-fork-t6x/commits/master.atom                                      "~[c] reaver-wps-t6x-scm"                                 contrib
 https://github.com/threat9/routersploit/commits/master.atom                                         "~[c] routersploit-scm"                                   contrib
-http://git.ffmpeg.org/gitweb/rtmpdump.git/atom                                                      "~[r] rtmpdump"                                           contrib
-https://github.com/opencontainers/runc/releases.atom                                                "~[r] runc"                                               contrib
+#http://git.ffmpeg.org/gitweb/rtmpdump.git/atom                                                      "~[r] rtmpdump"                                           contrib
+#https://github.com/opencontainers/runc/releases.atom                                                "~[r] runc"                                               contrib
 https://github.com/devttys0/sasquatch/commits/master.atom                                           "~[c] sasquatch"                                          contrib
 https://github.com/secdev/scapy/commits/master.atom                                                 "~[c] scapy"                                              contrib
 https://github.com/secdev/scapy/releases.atom                                                       "~[r] scapy"                                              contrib
-https://github.com/libsdl-org/SDL_image/releases.atom                                               "~[r] sdl{,2}_image"                                      contrib
-https://github.com/libsdl-org/SDL_mixer/releases.atom                                               "~[r] sdl{,2}_mixer"                                      contrib
-https://github.com/libsdl-org/SDL_net/releases.atom                                                 "~[r] sdl{,2}_net"                                        contrib
-https://github.com/libsdl-org/SDL_ttf/releases.atom                                                 "~[r] sdl{,2}_ttf"                                        contrib
-https://sourceforge.net/projects/sdlgfx/rss?path=/                                                  "~[r] sdl_gfx"                                            contrib
-https://sourceforge.net/projects/sdlpango/rss?path=/SDL_Pango                                       "~[r] sdl_pango"                                          contrib
-https://hg.icculus.org/icculus/SDL_sound/atom-log                                                   "~[r] sdl_sound"                                          contrib
+#https://github.com/libsdl-org/SDL_image/releases.atom                                               "~[r] sdl{,2}_image"                                      contrib
+#https://github.com/libsdl-org/SDL_mixer/releases.atom                                               "~[r] sdl{,2}_mixer"                                      contrib
+#https://github.com/libsdl-org/SDL_net/releases.atom                                                 "~[r] sdl{,2}_net"                                        contrib
+#https://github.com/libsdl-org/SDL_ttf/releases.atom                                                 "~[r] sdl{,2}_ttf"                                        contrib
+#https://sourceforge.net/projects/sdlgfx/rss?path=/                                                  "~[r] sdl_gfx"                                            contrib
+#https://sourceforge.net/projects/sdlpango/rss?path=/SDL_Pango                                       "~[r] sdl_pango"                                          contrib
+#https://hg.icculus.org/icculus/SDL_sound/atom-log                                                   "~[r] sdl_sound"                                          contrib
 https://github.com/google/shaderc/releases.atom                                                     "~[r] shaderc"                                            contrib
 https://gitlab.freedesktop.org/xdg/shared-mime-info/-/tags?format=atom                              "~[r] shared-mime-info"                                   contrib
 https://github.com/koalaman/shellcheck/releases.atom                                                "~[r] shellcheck-bin"                                     contrib
 https://github.com/sleuthkit/sleuthkit/commits/develop.atom                                         "~[c] sleuthkit"                                          contrib
 https://github.com/sleuthkit/sleuthkit/releases.atom                                                "~[r] sleuthkit"                                          contrib
 exec:~/.newsboat/ext/slock                                                                          "~[r] slock"                                              contrib
-exec:~/.newsboat/ext/smpeg                                                                          "~[r] smpeg"                                              contrib
+#exec:~/.newsboat/ext/smpeg                                                                          "~[r] smpeg"                                              contrib
 https://gitlab.xiph.org/xiph/speex/-/tags?format=atom                                               "~[r] speex"                                              contrib
-exec:~/.newsboat/ext/spflashtool                                                                    "~[r] sp-flash-tool-bin"                                  contrib
+exec:~/.newsboat/ext/spflashtool-bin                                                                "~[r] sp-flash-tool-bin"                                  contrib
 https://github.com/KhronosGroup/SPIRV-Headers/releases.atom                                         "~[r] spirv-headers"                                      contrib
 https://github.com/KhronosGroup/SPIRV-Tools/releases.atom                                           "~[r] spirv-tools"                                        contrib
 https://github.com/chinarulezzz/spoofcheck/commits/master.atom                                      "~[c] spoofcheck"                                         contrib
@@ -949,9 +943,9 @@ https://github.com/JFreegman/toxic/commits/master.atom                          
 https://github.com/JFreegman/toxic/releases.atom                                                    "~[r] toxic"                                              contrib
 https://github.com/soimort/translate-shell/commits/develop.atom                                     "~[c] translate-shell"                                    contrib
 https://github.com/soimort/translate-shell/releases.atom                                            "~[r] translate-shell"                                    contrib
-exec:~/.newsboat/ext/transmission                                                                   "~[r] transmission{,-gtk}"                                contrib
+https://github.com/transmission/transmission/releases.atom                                          "~[r] transmission{,-gtk}"                                contrib
 #https://politepol.com/fd/C43tvN9GioyM                                                               "~[r] transset-df"                                        contrib
-exec:~/.newsboat/ext/tree-unclassified                                                              "~[r] tree"                                               contrib
+exec:~/.newsboat/ext/tree                                                                           "~[r] tree"                                               contrib
 https://github.com/chinarulezzz-de/Trinity-Cursor-Theme/commits/master.atom                         "~[c] trinity-cursor-theme"                               contrib
 https://github.com/chinarulezzz-de/Trinity-Cursor-Theme/releases.atom                               "~[r] trinity-cursor-theme"                               contrib
 https://github.com/chinarulezzz-de/Trinity-Extra-Theme/commits/master.atom                          "~[c] trinity-extra-theme"                                contrib
@@ -962,26 +956,26 @@ https://github.com/chinarulezzz-de/Trinity-Icon-Theme/commits/master.atom       
 https://github.com/chinarulezzz-de/Trinity-Icon-Theme/releases.atom                                 "~[r] trinity-icon-theme"                                 contrib
 http://www.ax86.net/?tempskin=_atom                                                                 "~[r] ttf-terminus-font"                                  contrib
 https://github.com/eosrei/twemoji-color-font/releases.atom                                          "~[r] ttf-twemoji-color"                                  contrib
-exec:~/.newsboat/ext/unrar-nonfree                                                                  "~[r] unrar"                                              contrib
-exec:~/.newsboat/ext/unzip                                                                          "~[r] unzip"                                              contrib
+exec:~/.newsboat/ext/unrar                                                                          "~[r] unrar"                                              contrib
+https://sourceforge.net/projects/infozip/rss?path=/UnZip%206.x%20%28latest%29                       "~[r] unzip"                                              contrib
 exec:~/.newsboat/ext/urlview                                                                        "~[r] urlview"                                            contrib
 exec:~/.newsboat/ext/usbredir                                                                       "~[r] usbredir"                                           contrib
 #https://github.com/troydhanson/uthash/releases.atom                                                 "~[r] uthash"                                             contrib
 https://github.com/gjasny/v4l-utils/releases.atom                                                   "~[r] v4l-utils"                                          contrib
-exec:~/.newsboat/ext/virtualbox                                                                     "~[r] virtualbox-{bin,extpack}"                           contrib
-https://github.com/volatilityfoundation/volatility/releases.atom                                    "~[r] volatility"                                         contrib
+#exec:~/.newsboat/ext/virtualbox                                                                     "~[r] virtualbox-{bin,extpack}"                           contrib
+#https://github.com/volatilityfoundation/volatility/releases.atom                                    "~[r] volatility"                                         contrib
 #https://gitlab.xiph.org/xiph/vorbis-tools/-/tags?format=atom                                        "~[r] vorbis-tools"                                       contrib
 https://github.com/KhronosGroup/Vulkan-Headers/releases.atom                                        "~[r] vulkan-headers"                                     contrib
 https://github.com/KhronosGroup/Vulkan-Loader/releases.atom                                         "~[r] vulkan-loader"                                      contrib
 https://github.com/KhronosGroup/Vulkan-Tools/releases.atom                                          "~[r] vulkan-tools"                                       contrib
 #https://github.com/dbry/WavPack/releases.atom                                                       "~[r] wavpack"                                            contrib
-https://github.com/wireshark/wireshark/commits/master.atom                                          "~[c] wireshark"                                          contrib
-https://github.com/wireshark/wireshark/releases.atom                                                "~[r] wireshark"                                          contrib
+#https://github.com/wireshark/wireshark/commits/master.atom                                          "~[c] wireshark"                                          contrib
+#https://github.com/wireshark/wireshark/releases.atom                                                "~[r] wireshark"                                          contrib
 https://github.com/BlackArch/wordlistctl/commits/master.atom                                        "~[c] wordlistctl"                                        contrib
 https://github.com/BlackArch/wordlistctl/releases.atom                                              "~[r] wordlistctl"                                        contrib
 https://github.com/wpscanteam/wpscan/commits/master.atom                                            "~[c] wpscan"                                             contrib
 https://github.com/wpscanteam/wpscan/releases.atom                                                  "~[r] wpscan"                                             contrib
-exec:~/.newsboat/ext/x264                                                                           "~[r] x264"                                               contrib
+#exec:~/.newsboat/ext/x264                                                                           "~[r] x264"                                               contrib # TODO
 exec:~/.newsboat/ext/x265                                                                           "~[r] x265"                                               contrib
 https://github.com/kernelslacker/x86info/commits/master.atom                                        "~[c] x86info"                                            contrib
 exec:~/.newsboat/ext/xautolock                                                                      "~[r] xautolock"                                          contrib

@@ -1,1 +1,39 @@
-repology.sh
+#!/usr/bin/perl
+use strict;
+use File::Basename;
+use HTTP::Tiny;
+
+my $name =  basename $0;
+my $url  = 'https://download.qemu.org/';
+
+my $resp =  HTTP::Tiny->new->get($url);
+die "Failed: $resp->{status}: $resp->{reason}\n"
+	unless $resp->{success};
+
+print <<"EOF";
+<?xml version="1.0" ?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel>
+<title>$name</title>
+<link>$url</link>
+<description></description>
+</channel>
+EOF
+
+for (split /[\r\n]/, $resp->{content}) {
+	m@<td><a href="qemu-.*?">(qemu-.*?)</a></td>@ &&
+	print <<"EOF";
+
+<item>
+<title>$1</title>
+<link></link>
+<description></description>
+</item>
+EOF
+}
+
+# End of file
