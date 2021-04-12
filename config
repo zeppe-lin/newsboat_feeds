@@ -1,6 +1,6 @@
-refresh-on-startup yes
+refresh-on-startup no
 auto-reload yes
-reload-time 60
+reload-time 120
 articlelist-title-format "%T (%u unread, %t total) - %U"
 error-log ~/.newsboat/errors.log
 browser "/opt/bin/firefox -P default %u"
